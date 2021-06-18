@@ -85,7 +85,7 @@ span {
    .con{
        flex-direction: column;
        border: none;
-       margin-top: 96%;
+       margin-top: 102%;
        margin-left: 3%;
    }
    .info{
@@ -108,12 +108,10 @@ display: none;
     .con{
        flex-direction: column;
        border: none;
-       margin-top: 78%;
+       margin-top: 82%;
        margin-left: 10%;
    } 
-   .header{
-       margin-top: -10px;
-   } 
+  
    .info{
     height: 75vh;
 width: 73%;
