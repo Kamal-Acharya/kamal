@@ -1,7 +1,7 @@
 
     body{
         font-family: system-ui;
-        background: url("/slide1.jpg");
+        background: url("slide1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -134,9 +134,12 @@ button{
         .con{
            flex-direction: column;
            border: none;
-           margin-top: 100%;
+           margin-top: 126%;
            margin-left: 10%;
-       }  
+       } 
+       .header{
+           margin-top: -11px;
+       } 
        .box{
         height: 70vh;
     width: 71%;
