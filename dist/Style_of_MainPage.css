@@ -23,7 +23,7 @@
 /* THIS PART FOR MAIN CONTENT  */
 #maincontent{
     position: relative;
-    background-image: url('/Trident-Top-View.jpg'); 
+    background-image: url('Trident-Top-View.jpg'); 
     background-size: cover;
     background-attachment: fixed;
 }
