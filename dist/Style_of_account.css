@@ -116,6 +116,9 @@ width: 50px;
     border-radius: 10px;
     margin: 30px;
 }
+.header{
+    margin-top: -11px;
+} 
        
        .photo img {
     width: 100px;
