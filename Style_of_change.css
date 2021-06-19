@@ -97,8 +97,11 @@ width: 61px;
            margin-top: 2%;
            margin-left: 3%;
        }
+       .header{
+        margin-top: -10px;
+    }
        .box{
-        height: 50vh;
+        height: 57vh;
     width: 90%;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -127,6 +130,9 @@ button{
     border: 2px solid #ddd;
     border-radius: 10px;
     margin: 30px;
+}
+.header{
+    margin-top: -10px;
 }
 input{
     width: 80%;
