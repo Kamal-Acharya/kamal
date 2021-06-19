@@ -34,7 +34,8 @@
          /* background:linear-gradient(90deg,#B24592,#F15F79); */
          /* background:linear-gradient(#009ffd,#2a2a72); */
          background:linear-gradient(#09c6f9,#045de9);
-         border-radius: 10px;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
         text-align: center;
         width: 100%;
         color: white;
