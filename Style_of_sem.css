@@ -2,6 +2,14 @@
     body{
         font-family: system-ui;
     }
+    /* body{
+        font-family: system-ui;
+        background: url("../images/background2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+    } */
     .con {
         display: flex;
         height: 80vh;
@@ -13,11 +21,13 @@
     }
 
     .box {
-        height: 28vh;
+        height: 61vh;
         width: 55%;
         border: 2px solid #ddd;
         border-radius: 10px;
-        margin: 123px;
+        margin: 30px;
+        background-color: white;
+        /* position:absolute; */
 
     }
 
@@ -67,9 +77,24 @@ width: 61px;
         /* background-color:rgba(0, 0, 255, 0.322); */
         background:linear-gradient(90deg,#B24592,#F15F79); 
         border-radius: 2px;
-        
+        margin-left: 30px;
         outline: none;
         
+    }
+    #back{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        position: absolute;
+        margin: -38px 40px;
+    }
+    p {
+        margin: 20px;
+        color: mediumturquoise;
+    }
+    
+    span {
+        color: orange;
     }
     @media (max-width:998px)
     {
@@ -96,9 +121,10 @@ width: 61px;
            border: none;
            margin-top: 2%;
            margin-left: 3%;
+           height: 136vh;
        }
        .box{
-        height: 50vh;
+        height: 56vh;
     width: 90%;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -108,8 +134,8 @@ input{
     width: 80%;
 }
 button{
-    width: 100px;
-    margin-top: 30px;
+    width: 200px;
+    margin-top: -1px;
 }
        
   
@@ -120,9 +146,10 @@ button{
            border: none;
            margin-top: 2%;
            margin-left: 10%;
+           height: 128vh;
        }  
        .box{
-        height: 45vh;
+        height: 64vh;
     width: 73%;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -133,13 +160,16 @@ input{
     margin-top: 20px;
 }
 button{
-    width: 100px;
-    margin-top: 20px;
+    width: 200px;
+    margin-top: -1px;
 }
 #top{
     display: none;
 }
     }
+#MyDiv{
+    display: none;
+}
  
  
 
