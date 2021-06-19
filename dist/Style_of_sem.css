@@ -123,8 +123,11 @@ width: 61px;
            margin-left: 3%;
            height: 136vh;
        }
+       .header{
+           margin-top: -10px;
+       }
        .box{
-        height: 56vh;
+        height: 59vh;
     width: 90%;
     border: 2px solid #ddd;
     border-radius: 10px;
@@ -154,6 +157,9 @@ button{
     border: 2px solid #ddd;
     border-radius: 10px;
     margin: 30px;
+}
+.header{
+    margin-top: -10px;
 }
 input{
     width: 80%;

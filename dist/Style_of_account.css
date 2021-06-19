@@ -106,8 +106,11 @@ width: 50px;
        .con{
            flex-direction: column;
            border: none;
-           margin-top: 128%;
+           margin-top: 137%;
            margin-left: 10%;
+       }
+       .photo img{
+           margin-top: -12px;
        }
        .box{
         height: 70vh;
